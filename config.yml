@@ -1,0 +1,16 @@
+title: JPArelations
+description: Code for JPA relations spring boot example
+template:
+  repo: jparelations-template
+  name: jparelations
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
